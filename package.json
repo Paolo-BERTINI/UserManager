@@ -4,5 +4,8 @@
   },
   "dependencies": {
     "@prisma/client": "^6.5.0"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
   }
 }
