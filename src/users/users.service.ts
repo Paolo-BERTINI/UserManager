@@ -14,7 +14,7 @@ export class UsersService {
   }
 
   async findAll() {
-    return await this.prisma.user_table.findMany();
+    return this.prisma.user_table.findMany({ where: { published: true } });
   }
 
   async findOne(id: number) {
