@@ -6,6 +6,7 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
+    "@nestjs/mapped-types": "*",
     "@prisma/client": "^6.5.0"
   },
   "prisma": {
